@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);@import url(https://fonts.googleapis.com/css?family=Raleway);
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotateplane {
+    0% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(7px);
+    }
+}
+
+@keyframes link-fadein {
+    from {
+        opacity: 0;
+    }
+    to   {
+        opacity: 1;
+    }
+}
+
+@keyframes subtitle-fadein {
+    from {
+        opacity: 0;
+
+    }
+    to   {
+        opacity: 1;
+
+    }
+}
+
+@keyframes title-fadein {
+    from {
+        opacity: 0;
+        font-size: 65px;
+    }
+    to   {
+        opacity: 1;
+        font-size: 45px;
+
+    }
+}
+
+@keyframes title-fadein-mobile {
+    from {
+        opacity: 0;
+        font-size: 32px;
+    }
+    to   {
+        opacity: 1;
+        font-size: 24px;
+
+    }
+}
+
+
+
+@keyframes section-fadein {
+    from {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    to   {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+}
+
